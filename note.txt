@@ -1,0 +1,20 @@
+新建文件夹后，用VScode打开
+注意要信任文件夹
+之后Ctrl+Shift+P 输入 git init
+会看到 Git: 初始化仓库 这个选项，选它
+左下角出现 master 或 main 分支名
+左侧源代码管理图标（三个圈）亮起
+
+浏览器打开 https://github.com/new：
+仓库名：gitproject
+选 Public
+三个勾都不要打（README、.gitignore、license）
+点 Create repository
+
+VS Code 终端里执行：
+git remote add origin https://github.com/Jeak73/gitproject.git
+git remote -v
+
+Ctrl+s 保存
+按+暂存更改
+在“消息里添加备注”提交
